@@ -1,10 +1,17 @@
+import Log from'./Log'
+import Home from'./pages/Home';
+import Content from './Content';
+function App() {
+   return <h4>
+    This is from App component
+    <Home/>
+    <Log/>
+    <Content/>
 
 
-function App() { 
-   return <h2> is learning React now
-</h2>
-}
-
-
-
-export default App;
+   </h4>
+    ;
+  
+ }
+ 
+ export default App;

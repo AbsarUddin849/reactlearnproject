@@ -1,13 +1,15 @@
 
 
-import App from './App'; 
+
+
 function Home(){
-   
-    
-return <h2> fhgghjgjj
+    return <h1>
 
-<App/>
-</h2>
 
+      This is from home component home 
+
+
+    </h1>;
 }
+
 export default Home;
